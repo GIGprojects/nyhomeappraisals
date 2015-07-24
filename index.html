@@ -1,9 +1,3 @@
-<!--A Design by W3layouts
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html>
 <head>
@@ -60,20 +54,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <body>
 	<!--start-header-->
 	<div class="header" id="home">
-		<div class="container">
+		<div class="navbar" role="navigation">
 			<div class="logo">
-				<a href="index.html"><img src="images/logo.png" alt=""></a>  
+				<a href="index.html"><img src="images/logo.png" class="pull-left" alt=""></a>  
 			</div>
 			<!--start-top-nav-->
 			<nav class="top-nav">
 				<ul class="top-nav">
 					<li><a href="index.html"  class="active">Home</a></li>
-					<li><a href="404.html">Services</a></li>
-					<li><a href="404.html">Sample Appraisals</a></li>
-					<li><a href="404.html">Certification</a></li>
-					<li><a href="404.html">Pricing</a></li>
-					<li><a href="about.html">Hot Topics</a></li>
-					<li><a href="contact.html">Contact us</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="sampleappraisals.html">Sample Appraisals</a></li>
+					<li><a href="Certification.html">Certification</a></li>
+					<li><a href="Pricing.html">Pricing</a></li>
+					<li><a href="Hottopics.html">Hot Topics</a></li>
+					<li><a href="Contactus.html">Contact us</a></li>
 				</ul>
 				<a href="#" id="pull"><img src="images/menu-icon.png" title="menu" /></a>
 			</nav>
@@ -125,13 +119,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!--start-build-->
 	<div class="build">
 		<div class="container">
-			<div class="build-mian">
-				<div class="col-md-8 build-left">
-					<h1>Certified Real Estate &nbsp;<span>Appraisals</span></h1>
+			<div class="build-mian">	
+                <img src="images/guarantee.png" style="float:left;margin:-20px -20px 0px;" alt="">
+                <div class="col-md-8 build-left">
+    
+                    <h1>Certified Real Estate &nbsp;<span>Appraisals</span></h1>
                     <i><p>Our Certified Appraisals Will Be Accepted by Anyone - 100% Money Back Guaranteed!</p></i>
 				</div>
 				<div class="col-md-4 build-right">
-					<a href="#">GET A FREE QUOTE</a>
+					<a href="#getquote">GET A FREE QUOTE</a>
 				</div>
 				<div class="clearfix"></div>
 			</div>
@@ -142,21 +138,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="design">
 		<div class="container">
             <div class="work-top">
-				<h3>Get your real estate appraisal for:</h3>
-			</div>
+                <h3>Obtain a <span>Certified </span> Appraisal From Our <span>Local</span> & <span>Experienced </span>Appraisers for any of the Following:</h3><img src="images/seal.jpg" alt="">
+            </div>
 			<div class="design-main">
 				<div class="col-md-3 design-left">
 					<div class="design-text">
 						<img src="images/design-1.png" alt="" />
-						<h3>SELLING REAL ESTATE</h3>
+						<h3>PRELISTING APPRAISALS</h3>
 						<p>Get an unbiased appraisal to make an informed decision regarding listing price; you can also use it as tool to negotiate with potential buyers.</p>
+                        <p><a href="services/prelisting.html"><span><button>Learn more...</button></span></a></p>                    
 					</div>
 				</div>
 				<div class="col-md-3 design-left">
 					<div class="design-text">
 						<img src="images/design-2.png" alt="" />
-						<h3>BUYING REAL ESTATE</h3>
+						<h3>PREPURCHASE APPRAISALS</h3>
 						<p>Get an unbiased appraisal to make an informed decision regarding contract price; you can also use it as tool to negotiate with a stubborn seller.</p>
+                        <p><a href="services/prepurchase.html"><span><button>Learn more...</button></span></a></p>
 					</div>
 				</div>
 				<div class="col-md-3 design-left">
@@ -164,6 +162,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<img src="images/design-3.png" alt="" />
 						<h3>EXECUTOR OF ESTATE</h3>
 						<p>We specialize in retrospective date of death valuations.  We are very familiar with IRS requirements and will provide you with exactly what you need.</p>
+                        <p><a href="services/estate.html"><span><button>Learn more...</button></span></a></p>
 					</div>
 				</div>
 				<div class="col-md-3 design-left">
@@ -171,6 +170,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<img src="images/design-4.png" alt="" />
 						<h3>BANKRUPTCY</h3>
 						<p>We understand a lower appraisal value will help you!  Through this statement you should know we know the bankruptcy appraisal process inside/out.</p>
+                        <p><a href="services/bankruptcy.html"><span><button>Learn more...</button></span></a></p>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -179,7 +179,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="design-text">
 						<img src="images/design-5.png" alt="" />
 						<h3>DIVORCE</h3>
-						<p>We can provide a certified fair market value appraisal which can assist with potential buyouts, listing price, etc.  We can also provide expert witness testimony in court if need be.</p>
+						<p>We can provide a certified fair market value appraisal which can assist with potential buyouts, listing price, etc.  We can also provide expert witness testimony in court.</p>
+                        <p><a href="services/divorce.html"><span><button>Learn more...</button></span></a></p>
 					</div>
 				</div>
 				<div class="col-md-3 design-left">
@@ -187,6 +188,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<img src="images/design-6.png" alt="" />
 						<h3>PMI-HELOC</h3>
 						<p>We also appraise directly for banks so we know exactly what they require when it comes to reducing PMI or trying to obtain a line of credit.</p>
+                        <p><a href="services/homeequity.html"><span><button>Learn more...</button></span></a></p>
 					</div>
 				</div>
 				<div class="col-md-3 design-left">
@@ -194,13 +196,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<img src="images/design-7.png" alt="" />
 						<h3>TAX GRIEVANCE</h3>
 						<p>We understand a lower appraisal value will help you!  Through this statement you should know we know the tax grievance appraisal process inside & out.</p>
+                        <p><a href="services/tax.html"><span><button>Learn more...</button></span></a></p>
 					</div>
 				</div>
 				<div class="col-md-3 design-left">
 					<div class="design-text">
 						<img src="images/design-8.png" alt="" />
 						<h3>FAIR MARKET VALUE</h3>
-						<p>Find out the true value of your home by getting a certified and unbiased appraisal.</p>
+						<p>Find out the true value of your home by getting a certified and unbiased appraisal.  With this knowledge you can then make an informed decision right away.</p>
+                        <p><a href="services/fairmarketvalue.html"><span><button>Learn more...</button></span></a></p>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -620,7 +624,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 	end-news-->	
 	<!--start-get-->
-	<div class="get">
+	<div class="get" id="getquote">
 		<div class="container">
 			<div class="get-main">
 				<h3>Get A Quote</h3>
@@ -641,15 +645,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="col-md-5 get-bottom-right">
 					<div class="get-btm-top">
-						<h4>Why chose us?</h4>
+						<h4>Why choose us?</h4>
 						<ul>
                             <li> We have sample appraisals and a copy of one of our appraiser’s certification (available above) to prove we’re a <span> legitimate appraisal firm </span>; there are many fraudulent appraisal sites on the Internet.</li>
                             <li> Over <span>twenty years </span> of appraisal experience!</li>
+                            
 							<li><span>FHA Certified</span> (the highest degree in appraisal certification)</li>
+                            
                             <li><span>Lowest</span> online fees!</li>
+                            
                             <li><span>Preferred bank </span> appraisers with Chase, Citi, Wells Fargo — thus we understand the pre-purchase/pre-listing process better than anyone!</li>
+                            
                             <li><span>Court approved </span> appraisers on the “Part 36 List of the Chief Judge” — with maximum firm knowledge of appraisals for legal purposes (Bankruptcies, Estates, Divorces, etc.)</li>
-                            <li><span> Local Expertise!  </span>— We have an FHA Certified Real Estate Appraiser waiting your call in each county.</span></li>
+                            
+                            <li><span> Local Expertise!</span>— We have an FHA Certified Real Estate Appraiser waiting your call in each county.</li>                 
 						</ul>
 					</div>
 				</div>
@@ -662,38 +671,40 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="touch">
 		<div class="container">
         <div class="container">
+            <center><h1><span>Contact NY Appraisals Today at Our Local Offices!</span></h1></center>
+            <p></p>
             <div class="row">
                 <div class="col-lg-3">
-                    <h3>Queens Office</h3>
+                    <h3>Queens Office:</h3>
                     <ul>
-                    <p align="justify">
+                    <p>
                     260-12 Hillside Ave, Suite 3<br>
                     Glen Oaks, NY 11004<br>
-                    718-869-3994</p>
+                    718-869-3994 </p>
                     </ul>
                 </div>
                 <div class="col-lg-3">
-                    <h3>Manhattan Office</h3>
+                    <h3>Manhattan Office:</h3>
                     <ul>
-                    <p align="justify">
+                    <p>
                     12 W 75th St, Suite 3B<br>
                     New York, NY 10023<br>
-                    212-280-1747</p>
+                    212-280-1747 </p>
                     </ul>
                 </div>
                 <div class="col-lg-3">
-                    <h3>Brooklyn Office</h3>
+                    <h3>Brooklyn Office:</h3>
                     <ul>
-                    <p align="justify">
+                    <p>
                     159 Gelston Ave, Suite C10<br>
                     Brooklyn, NY 11209<br>
-                    718-570-7089</p>
+                    718-570-7089 </p>
                     </ul>
                 </div>
                 <div class="col-lg-3">
-                    <h3>Staten Office</h3>
+                    <h3>Staten Office:</h3>
                     <ul>
-                    <p align="justify">
+                    <p>
                     118 Central Ave<br>
                     Staten Island, NY 10301<br>
                     718-545-1980 </p>
@@ -703,39 +714,39 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <!--/.row--> 
               <div class="row">
                 <div class="col-lg-3">
-                    <h3>Suffolk Office</h3>
-                    <ul>
-                    <p align="justify">
-                    118 Central Ave<br>
-                    Staten Island, NY 10301<br>
-                    718-545-1980 </p>
-                    </ul>
-                </div>
-                <div class="col-lg-3">
-                    <h3>Westchester Office</h3>
-                    <ul>
-                    <p align="justify">
-                    118 Central Ave<br>
-                    Staten Island, NY 10301<br>
-                    718-545-1980 </p>
-                    </ul>
-                </div>
-                <div class="col-lg-3">
-                    <h3>Nassau Office</h3>
-                    <ul>
-                    <p >
-                    118 Central Ave<br>
-                    Staten Island, NY 10301<br>
-                    718-545-1980 </p>
-                    </ul>
-                </div>
-                 <div class="col-lg-3">
-                    <h3>Bronx Office</h3>
+                    <h3>Suffolk Office:</h3>
                     <ul>
                     <p>
                     118 Central Ave<br>
                     Staten Island, NY 10301<br>
-                    718-545-1980 </p>
+                    631-724-1404 </p>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h3>Westchester Office:</h3>
+                    <ul>
+                    <p>
+                    118 Central Ave<br>
+                    Staten Island, NY 10301<br>
+                    914-584-9780  </p>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h3>Nassau Office:</h3>
+                    <ul>
+                    <p>
+                    118 Central Ave<br>
+                    Staten Island, NY 10301<br>
+                    7516-512-1655 </p>
+                    </ul>
+                </div>
+                 <div class="col-lg-3">
+                    <h3>Bronx Office:</h3>
+                    <ul>
+                    <p>
+                    118 Central Ave<br>
+                    Staten Island, NY 10301<br>
+                    718-869-3994 </p>
                     </ul>
                 </div>
             </div>

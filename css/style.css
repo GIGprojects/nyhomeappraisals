@@ -22,14 +22,12 @@ body a{
 }
 /*--start-header--*/
 .logo {
-position: absolute;
-width: 22%;
-height: 0%;
-margin-left: -200px;
+float:left;
+padding-left: 15px;
 }
 .top-nav{
-margin-top: 5px;
-width: 900px;
+width: 850px;
+margin-top: 10px;
 }
 .top-nav ul li a {
 	color: #7f7f7f;
@@ -507,6 +505,16 @@ ul.callbacks_tabs.callbacks2_tabs {
 	font-weight:400;
 	margin-top:1.5em;
 }
+
+.design-text span{
+	color:#F8A23B;
+}
+
+.design button{
+	background-color:#fff;
+}
+
+
 /*--end-design--*/
 /*--start-work--*/
 .work{
@@ -524,7 +532,24 @@ ul.callbacks_tabs.callbacks2_tabs {
 	font-weight:400;
 }
 .work-top{
-	text-align:center;
+font-size: 1.4em;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+height: 200px;
+width: 700px;
+}
+.work-top h3{
+width: 500px;
+height: 0px;
+}
+.work-top img{
+position: relative;
+float: right;
+}
+
+.work-top h3 span{
+	color: #F8A23B;
 }
 .work-bottom {
 	background: #f1f1f1;
@@ -630,6 +655,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 .clients{
 	background:#f3f3f3;
 	padding:3em 0px;
+    height: 570px;
 }
 .clients-top{
 	text-align:center;
@@ -647,6 +673,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 	font-weight: 300;
 }
 .clients-btm{
+    height: 300px;
 	text-align:center;
 	margin-top:2em;
 }
@@ -848,15 +875,19 @@ ul.callbacks_tabs.callbacks2_tabs {
 .touch h3{
   color: #FFF;
   font-family: Georgia, Times; 
-  text-align: left;
+  text-align: center;
+}
+
+.touch span{
+  color: #F8A23B;
 }
 .touch p {
     font-family: Georgia, Times; 
     font-size: 11pt; 
     font-weight: normal; 
     color: #ffffff; 
-    text-align: left;
-    padding-bottom: 2em; 
+    text-align: center;
+    padding-bottom: 10px; 
 }
 /*--end-touch--*/
 /*--start-footer--*/
@@ -945,15 +976,15 @@ ul.callbacks_tabs.callbacks2_tabs {
 	margin: 0px;
 }
 .about-main h5 {
-	font-size: 18px;
+	font-size: 22px;
 	line-height: 1.5em;
 	margin: 1em 0px 0px 0px;
-	color: #010101;
+	color: #F8A23B;;
 }
 .about-main p {
 	font-size: 16px;
 	line-height: 1.8em;
-	color: #959191;
+	color: #000;
 	margin-top: 13px;
 }
 .about-text-left img{
@@ -1581,8 +1612,7 @@ nav {
 	float: left;
 }
 .get-bottom-right {
-	width: 37%;
-	float: right;
+  margin: 0 auto;
 }
 .mp iframe {
 	height: 230px;
@@ -1608,6 +1638,9 @@ nav {
 .about-main {
 	text-align: center;
 }
+.about-main p span{
+    color: #F8A23B;
+}    
 .about-main h5 {
 	font-size: 17px;
 	margin: 11px 0px 0px 0px;
@@ -1656,9 +1689,7 @@ nav {
 .quote {
 	width: 26%;
 }
-.logo {
-	width: 25%;
-}
+
 .header {
 	padding: 1.2em 0px;
 }
@@ -1676,6 +1707,7 @@ nav a {
 	width: 70%;
 	float: left;
 }
+
 .build-right {
 	margin-top: 2%;
 	width: 30%;
@@ -1859,6 +1891,7 @@ nav a {
 	padding: 5px 17px;
 }
 .get-btm-top {
+    
 	margin-top: 1.1em;
 }
 .get-btm-top ul li a {
@@ -1897,9 +1930,7 @@ nav a#pull img {
 .quote {
 	margin-top: 4px;
 }
-.logo {
-	width: 26%;
-}	
+
 .logo a img {
 	margin-top: 3px;
 }
@@ -2050,9 +2081,7 @@ nav a#pull img {
 }
 }
 @media (max-width:480px){
-.logo {
-	width: 32%;
-}
+
 .about-main h3, .team-main h3, .contact-top h3,.get-main h3{
 	font-size: 1.4em;
 }
@@ -2083,7 +2112,6 @@ nav a#pull img {
 }
 .get-bottom-right {
 	width: 100%;
-	float: none;
 	margin-top: 2em;
 }
 .get-bottom-left {
@@ -2390,9 +2418,7 @@ nav a#pull img {
 	width: 268px;
 	height: 31px;
 }
-.logo {
-	width: 43%;
-}
+
 .quote a {
 	font-size: 11px;
 	padding: 4px 7px;
@@ -2673,3 +2699,9 @@ nav a#pull {
 color: #FFF;
 }
 /*--end-media-quaries--*/
+
+.get-bottom {
+
+}
+
+
